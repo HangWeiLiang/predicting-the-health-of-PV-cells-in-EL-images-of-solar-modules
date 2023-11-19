@@ -317,5 +317,25 @@ poly_X_train = np.concatenate((poly_X_train_res, poly_new_X_train), axis=0)
 poly_y_train = np.concatenate((poly_y_train_res, poly_new_y_train), axis=0)
 poly_types_train = np.concatenate((poly_types_train, poly_new_types_train), axis=0)
 
+
 # print(poly_X_train.shape) -> (4056, 64, 64)
 # print(poly_y_train.shape) -> (4056)
+
+
+
+# mono_samples_count = len(mono_images)
+# poly_samples_count = len(poly_images)
+
+
+# mono_train_count = len(mono_X_train)
+# mono_test_count = len(mono_X_test)
+# poly_train_count = len(poly_X_train)
+# poly_test_count = len(poly_X_test)
+
+
+# print("Mono dataset samples count:", mono_samples_count)
+# print("Poly dataset samples count:", poly_samples_count)
+# print("Mono train dataset samples count:", mono_train_count)
+# print("Mono test dataset samples count:", mono_test_count)
+# print("Poly train dataset samples count:", poly_train_count)
+# print("Poly test dataset samples count:", poly_test_count)
